@@ -1,14 +1,15 @@
 function solution(n) {
-    let soo = '수';
-    let bak = '박';
     let answer = '';
+    
     for(let i = 0; i < n; i++) {
-        if(answer.length % 2 === 0) {
-            answer += soo;
+        if(answer.length % 2 === 0){
+            answer += '수';
         } else {
-            answer += bak;
+            answer += '박';
         }
     }
     return answer;
+    
 }
+
 
