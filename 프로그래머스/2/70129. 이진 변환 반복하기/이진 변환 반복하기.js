@@ -15,7 +15,5 @@ function solution(s) {
         time++
     }
     return[time,count]
-    
 }
-
-solution("110010101001");
+    
